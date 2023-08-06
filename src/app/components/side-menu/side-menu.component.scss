@@ -1,0 +1,91 @@
+/* css */
+@media (min-width: 1025px){
+    .toggle-wrapper aside, .toggle-wrapper .logo-box {
+        width: 45px;
+        transition: 0.5s;
+    }
+    }
+    .logo-box{
+        background: #161616;
+    }
+    .btn.btn-red {
+        color: #fff !important;
+        /* background-color: #E9C856 !important; */
+        /* border-color: #E9C856 !important; */
+        color: #fff;
+        filter: drop-shadow(0px 13px 27px rgba(0, 0, 0, 0.25));
+        /* padding: 10px 35px; */
+        font-size: 14px;
+        background: linear-gradient(93.34deg, #FF6F37 6.82%, #FF2676 35.9%, #B801AA 68.08%, #7101BC 101.4%);
+        font-weight: 500;
+        line-height: 21px;
+        border-radius: 10px;
+        background-color: #898989;
+        border-color: transparent !important;
+    }
+    .btn.btn-blue:hover{
+        border-color: transparent !important;
+    }
+    .modal-body {
+        position: relative;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 2rem;
+    }
+    .modal-content p{
+        color: #fff;
+        font-size: 18px !important;
+    }
+    .sidebarMenuBox {
+        overflow: auto;
+        height: calc(100vh - 201px);
+    }
+    .sidebarMenuBox::-webkit-scrollbar {
+        display: none;
+    }
+    
+    label {
+        display: inline-block;
+        margin-bottom: 0.5rem;
+        cursor: pointer;
+        background: linear-gradient(48.78deg, #FFB000 -3.61%, #FF564D 20.77%, #FF0098 52.14%, #5D00C1 88.94%);
+        background-clip: text;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(48.78deg, #FFB000 -3.61%, #FF564D 20.77%, #FF0098 52.14%, #5D00C1 88.94%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .set-as-active{
+        background: #E5F1FC;
+        width: 58%;
+        margin: auto;
+        height: 100px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+        border: 2px solid #0073E6;
+    }
+    .container-fluid-one{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    }
+    .head-heading{
+        font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    }
+    .head-heading-sec{
+        color: #0073E6;
+        font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    }
