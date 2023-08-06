@@ -159,15 +159,80 @@ a.article:hover {
     border-color: #d63500;
 }
 
-/* ---------------------------------------------------
+/* --------------------------------------
+Modal css start
+-----------------------------------------*/
+.modal-heading{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    }
+    .labels-heading{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #1C4980;
+    }
+      /* Style for the bordered chips container */
+      .chips-container {
+        border: 1px solid #ced4da;
+        padding: 10px;
+        border-radius: 4px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin: auto;
+      }
+    
+      /* Style for individual chips */
+      .badge-chip {
+        color: #1C4980;
+        padding: 5px 10px;
+        border-radius: 4px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        background: #DDEDFF;
+        border-radius: 22px;
+        height: 30px;
+      }
+     ::ng-deep .badge{
+        color: #1C4980;
+        padding: 5px 10px;
+        border-radius: 4px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        background: #DDEDFF;
+        border-radius: 22px;
+        height: 30px;
+      }
+      .remove-border-bottom{
+    border-bottom: none;
+      }
+      .remove-border-top{
+        border-top: unset;
+        border-bottom: unset;
+    }
+
+    /* ----------------------------------------
+    Modal css end
+    -----------------------------------------*/
+
+    /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
-
+h5{
+    font-size: 18px;
+}
 #content {
     width: 100%;
     padding: 20px;
     margin-left: 1em;
     min-height: 100vh;
+    background: #ffffff;
     transition: all 0.3s;
 }
 .btn-info{
