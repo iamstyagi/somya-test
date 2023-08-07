@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CardLayoutComponent } from './components/card-layout/card-layout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideMenuComponent,
-    DashboardComponent
+    DashboardComponent,
+    CardLayoutComponent
   ],
   imports: [
     BrowserModule,
